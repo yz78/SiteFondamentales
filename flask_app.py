@@ -25,7 +25,13 @@ def accueil():
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
 
+@app.get("/presentation")
+def presentation():
+    return "Je m'appelle YZ et je suis étudiant en informatique."
 
+@app.get("/loisirs")
+def loisirs():
+    return "Mes loisirs : le sport, le code et les jeux vidéo."
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
