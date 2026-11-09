@@ -59,7 +59,7 @@
 
 1. Pourquoi est-ce une bonne idée de séparer le code Python et le HTML ? (Pensez à une équipe avec un développeur et un graphiste.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Ça permet à chacun de travailler sur sa partie : le développeur s'occupe du code Python et le graphiste du HTML, sans se gêner ni casser le travail de l'autre. Le code est aussi plus lisible et plus facile à modifier.
 
 2. Les `{{ prenom }}` sont-ils remplacés par le serveur ou par le navigateur ? Comment l'avez-vous vérifié ?
 
@@ -71,7 +71,7 @@
 
 1. Quelle est la différence de rôle entre le HTML et le CSS ?
 
-   > _Ma réponse :_ Ça permet à chacun de travailler sur sa partie : le développeur s'occupe du code Python et le graphiste du HTML, sans se gêner ni casser le travail de l'autre. Le code est aussi plus lisible et plus facile à modifier.
+   > _Ma réponse :_ 
 
 
 2. Pour afficher votre page `/presentation`, combien de fichiers le navigateur doit-il télécharger ? (Vous pourrez le vérifier à l'exercice suivant !)
