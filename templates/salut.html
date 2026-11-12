@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>Salut</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav>
+        <a href="/">Accueil</a>
+        <a href="/formulaire">Retour au formulaire</a>
+    </nav>
+    <h1>Bonjour {{ prenom }}, qui vient de {{ ville }} !</h1>
+    {% if couleur %}
+        <p style="color: {{ couleur }};">Couleur préférée : {{ couleur }}</p>
+    {% endif %}
+</body>
+</html>
